@@ -1,6 +1,6 @@
-# LEEAHH - LeetCode-like Coding Platform
+# LEEAH - LeetCode-like Coding Platform
 
-LEEAHH is a full-stack coding platform inspired by LeetCode, built with React and Node.js. Practice coding problems, track your progress, and earn points as you solve challenges.
+LEEAH is a full-stack coding platform inspired by LeetCode, built with React and Node.js. Practice coding problems, track your progress, and earn points as you solve challenges.
 
 ## Features
 
@@ -56,7 +56,7 @@ Create a `.env` file in the `backend` directory:
 
 ```bash
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/leeahh
+MONGODB_URI=mongodb://localhost:27017/leeah
 JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
 ```
 

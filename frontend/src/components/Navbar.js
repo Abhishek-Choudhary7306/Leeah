@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-blue-600 dark:text-yellow-400">LEEAHH</span>
+              <span className="text-2xl font-bold text-blue-600 dark:text-yellow-400">LEEAH</span>
             </Link>
             {isAuthenticated && (
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">

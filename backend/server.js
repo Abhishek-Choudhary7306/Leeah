@@ -16,7 +16,7 @@ app.use('/api/submissions', require('./routes/submissions'));
 app.use('/api/users', require('./routes/users'));
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/leeahh', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/leeah', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

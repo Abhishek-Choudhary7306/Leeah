@@ -1,6 +1,6 @@
 # Errors Fixed
 
-This document summarizes all the errors and issues that were identified and fixed in the LEEAHH coding platform.
+This document summarizes all the errors and issues that were identified and fixed in the LEEAH coding platform.
 
 ## 1. Code Executor Input Parsing
 

@@ -1,7 +1,7 @@
 {
-  "name": "leeahh-backend",
+  "name": "leeah-backend",
   "version": "1.0.0",
-  "description": "Backend server for LEEAHH coding platform",
+  "description": "Backend server for LEEAH coding platform",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

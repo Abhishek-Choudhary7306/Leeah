@@ -305,7 +305,7 @@ For this problem, you'll receive the tree as an array representation where null 
 
 async function seed() {
   try {
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/leeahh');
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/leeah');
     console.log('Connected to MongoDB');
 
     // Clear existing problems
