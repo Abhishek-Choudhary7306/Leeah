@@ -35,34 +35,34 @@ You can return the answer in any order.`,
     ]
   },
   {
-    title: "Reverse String",
-    description: `Write a function that reverses a string. The input string is given as an array of characters s.
+  title: "Reverse String",
+  description: `Write a function that reverses a string. The input string is given as an array of characters s.
 
 You must do this by modifying the input array in-place with O(1) extra memory.`,
-    difficulty: "Easy",
-    points: 100,
-    starterCode: {
-      javascript: `function solution(s) {
+  difficulty: "Easy",
+  points: 100,
+  starterCode: {
+    javascript: `function solution(s) {
     // Your code here
     return s;
 }`,
-    },
-    testCases: [
-      { input: "['h','e','l','l','o']", expectedOutput: "['o','l','l','e','h']" },
-      { input: "['H','a','n','n','a','h']", expectedOutput: "['h','a','n','n','a','H']" },
-      { input: "['a']", expectedOutput: "['a']" },
-      { input: "['a','b']", expectedOutput: "['b','a']" },
-      { input: "['1','2','3']", expectedOutput: "['3','2','1']" }
-    ],
-    constraints: "1 <= s.length <= 10^5\ns[i] is a printable ascii character.",
-    examples: [
-      {
-        input: "s = ['h','e','l','l','o']",
-        output: "['o','l','l','e','h']",
-        explanation: "The string is reversed in place."
-      }
-    ]
   },
+  testCases: [
+    { input: "['h','e','l','l','o']", expectedOutput: '["o","l","l","e","h"]' },
+    { input: "['H','a','n','n','a','h']", expectedOutput: '["h","a","n","n","a","H"]' },
+    { input: "['a']", expectedOutput: '["a"]' },
+    { input: "['a','b']", expectedOutput: '["b","a"]' },
+    { input: "['1','2','3']", expectedOutput: '["3","2","1"]' }
+  ],
+  constraints: "1 <= s.length <= 10^5\ns[i] is a printable ascii character.",
+  examples: [
+    {
+      input: "s = ['h','e','l','l','o']",
+      output: '["o","l","l","e","h"]',
+      explanation: "The string is reversed in place."
+    }
+  ]
+},
   {
     title: "Valid Palindrome",
     description: `A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward.
