@@ -2,16 +2,6 @@
 
 LEEAH is a full-stack coding platform inspired by LeetCode, built with React and Node.js. Practice coding problems, track your progress, and earn points as you solve challenges.
 
-## Features
-
-- 🔐 **User Authentication** - Secure signup and login with JWT
-- 💻 **10 Coding Problems** - Each with 10 test cases
-- 🎯 **Code Submission** - Submit solutions in JavaScript or Python
-- 📊 **Submission History** - View all your past submissions
-- 🏆 **Points System** - Earn points for solving problems
-- 📈 **Dashboard** - Track your progress and statistics
-- ⚡ **Fast UI** - Clean, modern interface built with React and Tailwind CSS
-
 ## Tech Stack
 
 ### Frontend
@@ -57,10 +47,10 @@ Create a `.env` file in the `backend` directory:
 ```bash
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/leeah
-JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
+JWT_SECRET=your_super_secret_jwt_key
 ```
 
-**Note:** For production, use a strong, random JWT_SECRET.
+
 
 ### 3. Start MongoDB
 
