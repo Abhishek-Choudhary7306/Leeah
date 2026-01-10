@@ -14,7 +14,7 @@ const Dashboard = () => {
 
   const fetchStats = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/users/profile');
+      const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/users/profile`);
       setStats(response.data);
     } catch (error) {
       console.error('Error fetching stats:', error);

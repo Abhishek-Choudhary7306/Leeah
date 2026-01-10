@@ -18,7 +18,7 @@ const ProblemDetail = () => {
 
   const fetchProblem = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/problems/${id}`);
+      const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/problems/${id}`);
       if (response.data) {
         setProblem(response.data);
         setCode(response.data.starterCode?.[language] || '');
@@ -49,7 +49,7 @@ const ProblemDetail = () => {
     setSubmissionResult(null);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/submissions', {
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/submissions`, {
         problemId: id,
         code,
         language

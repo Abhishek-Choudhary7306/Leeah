@@ -13,7 +13,7 @@ const ProblemList = () => {
 
   const fetchProblems = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/problems');
+      const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/problems`);
       console.log('Problems fetched:', response.data);
       setProblems(response.data || []);
     } catch (error) {
