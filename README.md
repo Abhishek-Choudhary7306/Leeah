@@ -113,6 +113,14 @@ cd frontend
 npm install
 ```
 
+## Frontend Environment Variables
+
+Create a `.env` file inside the `frontend` directory:
+
+```env
+REACT_APP_API_URL=http://localhost:5000
+
+
 ### 7. Start the Frontend
 
 ```bash
