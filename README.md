@@ -158,4 +158,4 @@ The frontend will run on `http://localhost:3000` and automatically open in your 
 - Points are distributed evenly across all test cases
 - Full points if all test cases pass
 - Partial points for partial success
-- Points are only awarded once per problem (best submission counts)
+- Points are only awarded once per problem 
