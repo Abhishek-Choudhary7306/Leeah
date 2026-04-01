@@ -155,7 +155,7 @@ The frontend will run on `http://localhost:3000` and automatically open in your 
 ### Points System
 
 - Each problem has a base point value (100 for Easy, 200 for Medium/Hard)
-- Points are distributed evenly across all test cases
+- Points are distributed evenly across all the test cases
 - Full points if all test cases pass
 - Partial points for partial success
 - Points are only awarded once per problem 
